@@ -1,0 +1,22 @@
+.error {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title {
+    font-size: 16vh;
+}
+
+.description {
+    font-size: 4vh;
+}
+
+.btn {
+    font-size: 2vh;
+}

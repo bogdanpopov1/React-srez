@@ -1,0 +1,29 @@
+.header {
+    padding: 30px 0;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo {
+    color: black;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 600px) {
+    .menu {
+        display: none;
+    }
+}
